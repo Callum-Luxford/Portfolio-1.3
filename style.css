@@ -10,8 +10,9 @@
 body {
     width: 100vw;
     height: 100vh;
-    background: url(./Assets/pexels-mikhail-nilov-7594479.jpg);
+    background: url(./Assets/pexels-matheus-viana-2414036.jpg);
     background-size: cover;
+    background-position: center;
     position: relative;
     overflow: hidden;
     isolation: isolate;
@@ -21,7 +22,7 @@ body::before {
     content: '';
     position: absolute;
     inset: 0;
-    background: rgba(0, 0, 0, 0.918);
+    background: rgba(0, 0, 0, 0.89);
     z-index: -1;
 }
 
@@ -64,6 +65,7 @@ ul {
     background-color: rgb(22, 22, 22);
     height: 100vh;
     padding-left: 37%;
+    overflow: hidden;
 }
 
 li a {
